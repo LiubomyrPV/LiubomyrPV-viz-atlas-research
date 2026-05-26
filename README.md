@@ -1,22 +1,68 @@
-Examples of technical features
-# 🪐 Viz-Atlas Astronomy & Data Ingestion Research
+# 🔭 Viz-Atlas — Scientific Research & Data Coordination 🌌
 
-Welcome! This repository documents my raw research, API connectors mapping, data queries, and protocol definitions that power the **Viz-Atlas** 3D platform.
+> **Co-Developer & Lead Product Researcher of Viz-Atlas** —  
+> the first community-built, blockchain-verified cosmic registry powered by real NASA & SIMBAD data.
 
-The main target of my research is to systematically map data from trusted scientific space agency databases and translate them into custom JSON structures suitable for local 3D rendering (WebGL) on the frontend, and decentralized on-chain storage via smart contracts.
-
-## 📁 Repository Map
-
-### 1. `/queries`
-This folder contains the actual structured queries used to pull data directly from scientific astronomy servers:
-* **`nasa_exoplanets.adql`**: Table queries targeting confirmed systems, filtering missing astronomical attributes.
-* **`simbad_tap.adql`**: Astronomical Data Query Language targeting brightest stars coordinates to translate 2D sky projections into 3D cartesian coordinates $(X, Y, Z)$ inside the engine.
-
-### 2. `/specs`
-Details of JSON schemas that represent physical units formatted for the decentralized smart-contract registry:
-* Conversion of Parallax (milliarcseconds) to Light Years ($D = 1000 / \pi$).
-* Stellar temperature map coordinates matched with real custom star colors.
+[![Live App](https://img.shields.io/badge/🌐_Project_Live-vizatlas.space-00ffcc?style=for-the-badge)](https://vizatlas.space)
+[![Role](https://img.shields.io/badge/👤_Role-Co--Founder_&_Research-FF1493?style=for-the-badge)](https://github.com/LiubomyrPV)
+[![On-Chain Contributions](https://img.shields.io/badge/⛓️_On--Chain-Polygon_Verified-7b2fff?style=for-the-badge)](https://polygonscan.com/address/0x013164EA0570675650051FA302992f64c5c258d9)
 
 ---
-## 🎓 Application for University Admissions
-This work represents my independent scientific and research efforts in software systems engineering. I will be proud to discuss ADQL queries, celestial metadata structures, and the physical algorithms behind 3D simulations during technical university admissions and academic interviews.
+
+## ✨ Overview of My Contributions
+
+On Viz-Atlas, my role spans the intersection of **Astrophysical Data Science**, **AI Quality Assurance (QA)**, and **Product Management**. 
+
+Rather than working on deep backend infrastructure, I coordinated the scientific input and verified the system's compliance with actual NASA and SIMBAD records. 
+
+| Contribution Area | Key Responsibilities & Deliverables |
+|-------------------|--------------------------------------|
+| 🔬 **NASA Data Mining** | Analyzed NASA Exoplanet Archive, mapped planet attributes *(eccentricity, mass, orbital semi-major axis)* |
+| 💻 **SIMBAD Querying** | Researched Astronomical TAP (Table Access Protocol) using ADQL queries to fetch stellar systems |
+| 🤖 **AI Integration Testing** | Prompted, benchmarked, and tuned Gemini 3.5 LLM responses for the internal education/info modules |
+| 🎨 **UI/UX Ergonomics** | Designed navigation flow, tested and optimized layout responsiveness across mobile and desktop devices |
+| ⛓️ **On-Chain Authorship** | Co-designed metadata structure stored im Glass/IPFS payload, verified deploy on Polygon, registered as Co-Author |
+
+---
+
+## 🛠️ My Tech & Scientific Stack
+
+- **Data Management:** NASA Exoplanet Archive AP, SIMBAD TAP, ADQL (Astronomical Data Query Language), JSON payload structuring.
+- **Product & Design QA:** Responsive Layout Benchmarking, UI/UX User flow auditing, Figma prototyping.
+- **AI Assist Systems:** AI-prompt engineering (Gemini 3.5), context injection, structured output verification.
+- **Web3 Tools:** MetaMask, Polygonscan, IPFS Explorer (Pinata metadata validation).
+
+---
+
+## 🔬 Scientific Data Architecture (My Work)
+
+To enable the 3D-simulation layers, I formulated the required data mapping protocols. Below is a sample schematic of how I structured real astrophysical attributes to feed into our custom shader parameters:
+
+```text
+       [ NASA Exoplanet / SIMBAD TAP Node ]
+                       │
+                       ▼   My Data Extraction Pipeline
+         (JSON Payload Parsing & Verification)
+                       │
+         ┌─────────────┴─────────────┐
+         ▼ Spectral Classification   ▼ Kepler Constants
+    [ Surface Temperature ]      [ Semimajor Axis (a) ]
+    [ Absolute Magnitude  ]      [ Eccentricity (e)   ]
+         │                           │
+         ▼ GPU Custom Shaders        ▼ Kepler 3D Orbit Node
+    (Procedural Star Surface)    (Mathematical 3D Path)
+```
+##On-Chain Verification & Founders
+Our scientific and co-development contribution is permanently of record on the Polygon Blockchain.
+The VizAtlas Cosmic Registry Protocol stores our founding details immutably within the smart contract state:
+Contract Address: 0x013164EA0570675650051FA302992f64c5c258d9
+Primary Founder: Dmytro Pavliuk
+Secondary Founder (Co-Founder): Liubomyr Pavliuk
+
+##🤖 My Path in AI-Assisted Engineering
+As part of my education and active adaptation to future tech standards, I utilized AI-Assisted Engineering (Gemini AI Studio). Under the mentorship of our Lead Architect, I:
+Conducted automated testing of UI components on different layouts.
+Verified multi-language translation dictionaries (en.json & ua.json) with the coordinate engine.
+Coordinated system deployments using AI-assisted command pipelines.
+© 2026 Viz-Atlas · Liubomyr Pavliuk · Created in Ukraine 🇺🇦 · MIT License
+
