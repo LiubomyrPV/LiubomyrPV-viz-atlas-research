@@ -33,24 +33,10 @@ Rather than working on deep backend infrastructure, I coordinated the scientific
 
 ---
 
-## 🔬 Scientific Data Architecture (My Work)
+## 🔬 3D object display styles (My Work)  
+As an assistant, I used AI to help test and participate in the configuration of modules for editing the appearance of objects.
 
-To enable the 3D-simulation layers, I formulated the required data mapping protocols. Below is a sample schematic of how I structured real astrophysical attributes to feed into our custom shader parameters:
 
-```text
-       [ NASA Exoplanet / SIMBAD TAP Node ]
-                       │
-                       ▼   My Data Extraction Pipeline
-         (JSON Payload Parsing & Verification)
-                       │
-         ┌─────────────┴─────────────┐
-         ▼ Spectral Classification   ▼ Kepler Constants
-    [ Surface Temperature ]      [ Semimajor Axis (a) ]
-    [ Absolute Magnitude  ]      [ Eccentricity (e)   ]
-         │                           │
-         ▼ GPU Custom Shaders        ▼ Kepler 3D Orbit Node
-    (Procedural Star Surface)    (Mathematical 3D Path)
-```
 ## On-Chain Verification & Founders
 
 Our scientific and co-development contribution is permanently of record on the Polygon Blockchain.
