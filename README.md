@@ -19,7 +19,7 @@ Rather than working on deep backend infrastructure, I coordinated the scientific
 |-------------------|--------------------------------------|
 | 🔬 **NASA Data Mining** | Analyzed NASA Exoplanet Archive, mapped planet attributes *(eccentricity, mass, orbital semi-major axis)* |
 | 💻 **SIMBAD Querying** | Researched Astronomical TAP (Table Access Protocol) using ADQL queries to fetch stellar systems |
-| 🤖 **AI Integration Testing** | Prompted, benchmarked, and tuned Gemini 3.5 LLM responses for the internal education/info modules |
+| 🤖 **AI Integration Testing** | Prompted, benchmarked, and tuned AI responses for the internal education/info modules |
 | 🎨 **UI/UX Ergonomics** | Designed navigation flow, tested and optimized layout responsiveness across mobile and desktop devices |
 | ⛓️ **On-Chain Authorship** | Co-designed metadata structure stored im Glass/IPFS payload, verified deploy on Polygon, registered as Co-Author |
 
