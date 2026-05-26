@@ -51,14 +51,17 @@ To enable the 3D-simulation layers, I formulated the required data mapping proto
          ▼ GPU Custom Shaders        ▼ Kepler 3D Orbit Node
     (Procedural Star Surface)    (Mathematical 3D Path)
 ```
-##On-Chain Verification & Founders
+## On-Chain Verification & Founders
+
 Our scientific and co-development contribution is permanently of record on the Polygon Blockchain.
 The VizAtlas Cosmic Registry Protocol stores our founding details immutably within the smart contract state:
 Contract Address: 0x013164EA0570675650051FA302992f64c5c258d9
+[VizAtlas Smart Contract](https://polygonscan.com/address/0x013164EA0570675650051FA302992f64c5c258d9)  
 Primary Founder: Dmytro Pavliuk
 Secondary Founder (Co-Founder): Liubomyr Pavliuk
 
-##🤖 My Path in AI-Assisted Engineering
+## 🤖 My Path in AI-Assisted Engineering
+
 As part of my education and active adaptation to future tech standards, I utilized AI-Assisted Engineering (Gemini AI Studio). Under the mentorship of our Lead Architect, I:
 Conducted automated testing of UI components on different layouts.
 Verified multi-language translation dictionaries (en.json & ua.json) with the coordinate engine.
