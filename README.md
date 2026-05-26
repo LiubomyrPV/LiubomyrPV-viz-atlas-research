@@ -55,12 +55,10 @@ To enable the 3D-simulation layers, I formulated the required data mapping proto
 
 Our scientific and co-development contribution is permanently of record on the Polygon Blockchain.
 The VizAtlas Cosmic Registry Protocol stores our founding details immutably within the smart contract state:
-Contract Address: 0x013164EA0570675650051FA302992f64c5c258d9
+Contract  Address: 0x013164EA0570675650051FA302992f64c5c258d9
 [VizAtlas Smart Contract](https://polygonscan.com/address/0x013164EA0570675650051FA302992f64c5c258d9)  
 
-Primary Founder: Dmytro Pavliuk
-
-Secondary Founder (Co-Founder): Liubomyr Pavliuk
+Primary Founder: Dmytro Pavliuk  Secondary Founder (Co-Founder): Liubomyr Pavliuk
 
 ## 🤖 My Path in AI-Assisted Engineering
 
