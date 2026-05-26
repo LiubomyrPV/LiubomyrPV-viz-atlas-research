@@ -27,10 +27,9 @@ Rather than working on deep backend infrastructure, I coordinated the scientific
 
 ## 🛠️ My Tech & Scientific Stack
 
-- **Data Management:** NASA Exoplanet Archive AP, SIMBAD TAP, ADQL (Astronomical Data Query Language), JSON payload structuring.
 - **Product & Design QA:** Responsive Layout Benchmarking, UI/UX User flow auditing, Figma prototyping.
-- **AI Assist Systems:** AI-prompt engineering (Gemini 3.5), context injection, structured output verification.
-- **Web3 Tools:** MetaMask, Polygonscan, IPFS Explorer (Pinata metadata validation).
+- **AI Assist Systems:** AI-prompt engineering, context injection, structured output verification.
+- **Web3 Tools:** During development, I was introduced to development in WEB3 blockchain systems MetaMask, Polygonscan, IPFS Explorer (Pinata metadata validation).
 
 ---
 
